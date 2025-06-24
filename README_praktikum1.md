@@ -1,7 +1,7 @@
 # Lab7Web - Praktikum 1: PHP Framework (CodeIgniter 4)
 
-## 👤 Nama: Gilang Ramadhan  
-## 🏫 NIM: 312310XYZ  
+## 👤 Nama: Ramanda Nur Arijudin
+## 🏫 NIM: 312310186  
 ## 💡 Modul: Praktikum 1 - PHP Framework
 
 ---
