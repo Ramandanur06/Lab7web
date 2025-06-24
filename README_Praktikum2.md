@@ -1,4 +1,4 @@
-# 📝 Lab7Web - Praktikum Pemrograman Web (CodeIgniter 4)
+# Lab7Web - Praktikum Pemrograman Web (CodeIgniter 4)
 
 Repositori ini merupakan hasil dari **Praktikum Pemrograman Web - Framework CodeIgniter 4** yang berisi:
 
@@ -7,9 +7,7 @@ Repositori ini merupakan hasil dari **Praktikum Pemrograman Web - Framework Code
 
 ---
 
----
-
-## 🔧 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - CodeIgniter 4
 - PHP 8.x (via XAMPP)
@@ -19,7 +17,7 @@ Repositori ini merupakan hasil dari **Praktikum Pemrograman Web - Framework Code
 
 ---
 
-## ✅ Fitur CRUD yang Diimplementasikan
+## Fitur CRUD yang Diimplementasikan
 
 - [x] Menampilkan daftar artikel (user)
 - [x] Menampilkan detail artikel
@@ -31,9 +29,9 @@ Repositori ini merupakan hasil dari **Praktikum Pemrograman Web - Framework Code
 
 ---
 
-## 🖼️ Screenshot Aplikasi
+## Screenshot Aplikasi
 
-### 🧑 Halaman User
+### Halaman User
 
 **Daftar Artikel**
 ![screencapture-localhost-8080-artikel-2025-06-24-10_30_09](https://github.com/user-attachments/assets/700e5d6d-89fa-4837-a6ff-096fe83cf169)
@@ -43,7 +41,7 @@ Repositori ini merupakan hasil dari **Praktikum Pemrograman Web - Framework Code
 
 ---
 
-### 👨‍💼 Halaman Admin
+### Halaman Admin
 
 **Dashboard Artikel**
 ![Screenshot 2025-06-24 101956](https://github.com/user-attachments/assets/fa6bbdb2-82f8-4cca-840a-71b2c81a8ed9)
@@ -62,11 +60,7 @@ Repositori ini merupakan hasil dari **Praktikum Pemrograman Web - Framework Code
 ![Screenshot 2025-06-24 103713](https://github.com/user-attachments/assets/82b2c22e-49e0-45bf-88de-580d19a0391d)
 ---
 
-
-
----
-
-## 🧠 Cara Menjalankan Project
+## Cara Menjalankan Project
 
 1. Aktifkan XAMPP (Apache & MySQL)
 2. Import database `lab_ci4` via phpMyAdmin
@@ -86,10 +80,9 @@ Repositori ini merupakan hasil dari **Praktikum Pemrograman Web - Framework Code
 
 ---
 
+## Link Repository
 
-## 🔗 Link Repository
-
-> 📌 [https://github.com/Ramandanur06/Lab7Web](https://github.com/Ramandanur06/Lab7Web)
+> [https://github.com/Ramandanur06/Lab7Web](https://github.com/Ramandanur06/Lab7Web)
 
 ---
 
