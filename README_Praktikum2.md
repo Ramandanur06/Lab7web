@@ -1,60 +1,100 @@
-# CodeIgniter 4 Framework
+# 📝 Lab7Web - Praktikum Pemrograman Web (CodeIgniter 4)
 
-## What is CodeIgniter?
+Repositori ini merupakan hasil dari **Praktikum Pemrograman Web - Framework CodeIgniter 4** yang berisi:
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+- Praktikum 1: Pengenalan CodeIgniter
+- Praktikum 2: CRUD Artikel + Upload Gambar + UI Modern
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+---
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+---
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## 🔧 Teknologi yang Digunakan
 
-## Important Change with index.php
+- CodeIgniter 4
+- PHP 8.x (via XAMPP)
+- MySQL + phpMyAdmin
+- Bootstrap 5 (CDN)
+- Git & GitHub
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+---
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## ✅ Fitur CRUD yang Diimplementasikan
 
-**Please** read the user guide for a better explanation of how CI4 works!
+- [x] Menampilkan daftar artikel (user)
+- [x] Menampilkan detail artikel
+- [x] Admin dashboard (CRUD)
+- [x] Upload gambar artikel (add & edit)
+- [x] Tampilan modern pakai Bootstrap
+- [x] Validasi form + upload
+- [x] Struktur repo sesuai modul (Lab7Web)
 
-## Repository Management
+---
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## 🖼️ Screenshot Aplikasi
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+### 🧑 Halaman User
 
-## Contributing
+**Daftar Artikel**
+![screencapture-localhost-8080-artikel-2025-06-24-10_30_09](https://github.com/user-attachments/assets/700e5d6d-89fa-4837-a6ff-096fe83cf169)
 
-We welcome contributions from the community.
+**Detail Artikel**
+![Screenshot 2025-06-24 103052](https://github.com/user-attachments/assets/5924b3b4-800d-4617-a15c-d401aa6338f7)
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+---
 
-## Server Requirements
+### 👨‍💼 Halaman Admin
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+**Dashboard Artikel**
+![Screenshot 2025-06-24 101956](https://github.com/user-attachments/assets/fa6bbdb2-82f8-4cca-840a-71b2c81a8ed9)
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+**Form Tambah Artikel**
+![screencapture-localhost-8080-admin-artikel-add-2025-06-24-10_20_50](https://github.com/user-attachments/assets/c650c121-6669-4fc1-ae32-b80c10cefdbc)
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+**Artikel Setelah Ditambahkan**
+![screencapture-localhost-8080-index-php-admin-artikel-2025-06-24-10_35_18](https://github.com/user-attachments/assets/eb6dc0fa-b4ef-46e6-b343-300dcab25065)
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+**Form Edit Artikel dan gambar**
+![screencapture-localhost-8080-index-php-admin-artikel-2025-06-24-10_35_18](https://github.com/user-attachments/assets/eabecacc-b272-473c-bd7b-4244c3e09188)
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+**Hapus Artikel**
+![Screenshot 2025-06-24 103713](https://github.com/user-attachments/assets/82b2c22e-49e0-45bf-88de-580d19a0391d)
+---
+
+
+
+---
+
+## 🧠 Cara Menjalankan Project
+
+1. Aktifkan XAMPP (Apache & MySQL)
+2. Import database `lab_ci4` via phpMyAdmin
+3. Pastikan file `.env` sudah disesuaikan:
+    ```env
+    database.default.database = lab_ci4
+    database.default.username = root
+    database.default.password =
+    ```
+4. Jalankan:
+    ```bash
+    php spark serve
+    ```
+5. Buka di browser:
+    - `http://localhost:8080/artikel` → User
+    - `http://localhost:8080/admin/artikel` → Admin (CRUD)
+
+---
+
+
+## 🔗 Link Repository
+
+> 📌 [https://github.com/Ramandanur06/Lab7Web](https://github.com/Ramandanur06/Lab7Web)
+
+---
+
+
+
+---
+
+
