@@ -1,21 +1,6 @@
-        </section>
-        <aside id="sidebar">
-            <div class="widget-box">
-                <h3 class="title">Widget Header</h3>
-                <ul>
-                    <li><a href="#">Widget Link</a></li>
-                    <li><a href="#">Widget Link</a></li>
-                </ul>
-            </div>
-            <div class="widget-box">
-                <h3 class="title">Widget Text</h3>
-                <p>Ini sidebar dummy. Tambah konten apa aja di sini nanti.</p>
-            </div>
-        </aside>
-    </section>
-    <footer>
-        <p>&copy; <?= date('Y'); ?> - Universitas Pelita Bangsa</p>
-    </footer>
-    </div>
+</div> <!-- End container -->
+
+<!-- Bootstrap JS (optional, buat dropdown/modal dll) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
